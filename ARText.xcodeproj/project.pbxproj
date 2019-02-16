@@ -17,6 +17,7 @@
 		3FBD73511F54A8C600E58C71 /* TextNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBD734D1F54A8C600E58C71 /* TextNode.swift */; };
 		3FBD73521F54A8C600E58C71 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBD734E1F54A8C600E58C71 /* Utilities.swift */; };
 		D76811DA2218739D001A04CB /* HackVTModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D76811D92218739D001A04CB /* HackVTModel.mlmodel */; };
+		D76811DC2218D0BD001A04CB /* HackVT5Items.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D76811DB2218D0BC001A04CB /* HackVT5Items.mlmodel */; };
 		D77690DB2217B6B300AA9113 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77690DA2217B6B300AA9113 /* PopUpViewController.swift */; };
 		D77690DD2217CC7600AA9113 /* myCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77690DC2217CC7500AA9113 /* myCell.swift */; };
 /* End PBXBuildFile section */
@@ -34,6 +35,7 @@
 		3FBD734D1F54A8C600E58C71 /* TextNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextNode.swift; sourceTree = "<group>"; };
 		3FBD734E1F54A8C600E58C71 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		D76811D92218739D001A04CB /* HackVTModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HackVTModel.mlmodel; sourceTree = "<group>"; };
+		D76811DB2218D0BC001A04CB /* HackVT5Items.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HackVT5Items.mlmodel; sourceTree = "<group>"; };
 		D77690DA2217B6B300AA9113 /* PopUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
 		D77690DC2217CC7500AA9113 /* myCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,6 +76,7 @@
 				D77690DC2217CC7500AA9113 /* myCell.swift */,
 				3FBD734B1F54A8C600E58C71 /* ARText.swift */,
 				D77690DA2217B6B300AA9113 /* PopUpViewController.swift */,
+				D76811DB2218D0BC001A04CB /* HackVT5Items.mlmodel */,
 				D76811D92218739D001A04CB /* HackVTModel.mlmodel */,
 				3FBD734D1F54A8C600E58C71 /* TextNode.swift */,
 				3FBD734E1F54A8C600E58C71 /* Utilities.swift */,
@@ -158,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D76811DC2218D0BD001A04CB /* HackVT5Items.mlmodel in Sources */,
 				D77690DD2217CC7600AA9113 /* myCell.swift in Sources */,
 				3FBD73521F54A8C600E58C71 /* Utilities.swift in Sources */,
 				D76811DA2218739D001A04CB /* HackVTModel.mlmodel in Sources */,

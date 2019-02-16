@@ -10,7 +10,7 @@ import UIKit
 
 class PopUpViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
     
-    
+    //m
     @IBOutlet weak var myCollectionView: UICollectionView!
     var array: [UIImage?] = [nil, nil, nil, nil, nil, nil, nil, nil]
     

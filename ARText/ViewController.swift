@@ -21,7 +21,7 @@ class ViewController: UIViewController,ARSCNViewDelegate, UIPopoverPresentationC
     @IBOutlet weak var inputContainerView: UIView!
     @IBOutlet weak var inputContainerViewBottom: NSLayoutConstraint!
     
-    let model1 = try! VNCoreMLModel(for: HackVTModel().model)
+    let model1 = try! VNCoreMLModel(for: HackVT5Items().model)
     
     static var textChange: String = ""
     
@@ -183,7 +183,7 @@ class ViewController: UIViewController,ARSCNViewDelegate, UIPopoverPresentationC
                 ViewController.urlUse = "https://www.apple.com/shop/product/MMEF2AM/A/airpods"
                 ViewController.nameUse = "Airpods"
                 if (ViewController.creditCount >= 600) {
-                    ViewController.creditCount -= 5
+                    ViewController.creditCount -= 10
                 }
             } else if (str == "Monster Energy\n") {
                 ViewController.textChange.append("Price Match: $2.99")
@@ -196,6 +196,13 @@ class ViewController: UIViewController,ARSCNViewDelegate, UIPopoverPresentationC
                 ViewController.textChange.append("Price Match: $0.99")
                 ViewController.urlUse = "https://www.amazon.com/stores/page/5F7F22EF-7E3B-4BFF-B91E-23F98843C929"
                 ViewController.nameUse = "Coca Cola"
+                if (ViewController.creditCount <= 795) {
+                    ViewController.creditCount -= 10
+                }
+            } else if (str == "ThinkPad\n") {
+                ViewController.textChange.append("Price Match: Starts at $1,000.00")
+                ViewController.urlUse = "https://www.amazon.com/Lenovo-Thinkpad-Ultrabook-20F9-S20T00-Multitouch/dp/B01DJNW7AA"
+                ViewController.nameUse = "ThinkPad"
                 if (ViewController.creditCount <= 795) {
                     ViewController.creditCount += 5
                 }
