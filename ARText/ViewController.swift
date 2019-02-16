@@ -247,7 +247,11 @@ class ViewController: UIViewController,ARSCNViewDelegate, UIPopoverPresentationC
     
     
     @IBAction func handleSendButton(_ sender: AnyObject) {
+        sceneView.scene.rootNode.enumerateChildNodes { (node, stop) -> Void in
+            node.removeFromParentNode()
+        }
         let myImg: UIImage = sceneView.snapshot()
+        
         self.updateClassifications(for: myImg)
         creditLabel.text = "Credit Score: \(ViewController.creditCount)"
         let tempT = ViewController.textChange
