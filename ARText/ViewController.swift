@@ -28,7 +28,7 @@ class ViewController: UIViewController,ARSCNViewDelegate, UIPopoverPresentationC
     static var urlUse: String = ""
     
     static var nameUse: String = ""
-    
+    //
     static var creditCount: Int = 800
     
     var picInt: Int = 0

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3FBD73381F54A8AB00E58C71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBD73371F54A8AB00E58C71 /* AppDelegate.swift */; };
-		3FBD733A1F54A8AB00E58C71 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD73391F54A8AB00E58C71 /* art.scnassets */; };
 		3FBD733C1F54A8AB00E58C71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBD733B1F54A8AB00E58C71 /* ViewController.swift */; };
 		3FBD733F1F54A8AB00E58C71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD733D1F54A8AB00E58C71 /* Main.storyboard */; };
 		3FBD73411F54A8AB00E58C71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD73401F54A8AB00E58C71 /* Assets.xcassets */; };
@@ -25,7 +24,6 @@
 /* Begin PBXFileReference section */
 		3FBD73341F54A8AB00E58C71 /* ARText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARText.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FBD73371F54A8AB00E58C71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3FBD73391F54A8AB00E58C71 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		3FBD733B1F54A8AB00E58C71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3FBD733E1F54A8AB00E58C71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FBD73401F54A8AB00E58C71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -71,7 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				3FBD73371F54A8AB00E58C71 /* AppDelegate.swift */,
-				3FBD73391F54A8AB00E58C71 /* art.scnassets */,
 				3FBD733B1F54A8AB00E58C71 /* ViewController.swift */,
 				D77690DC2217CC7500AA9113 /* myCell.swift */,
 				3FBD734B1F54A8C600E58C71 /* ARText.swift */,
@@ -147,7 +144,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FBD733A1F54A8AB00E58C71 /* art.scnassets in Resources */,
 				3FBD73441F54A8AB00E58C71 /* LaunchScreen.storyboard in Resources */,
 				3FBD73411F54A8AB00E58C71 /* Assets.xcassets in Resources */,
 				3FBD733F1F54A8AB00E58C71 /* Main.storyboard in Resources */,
@@ -313,7 +309,7 @@
 				DEVELOPMENT_TEAM = 2NPE543ARD;
 				INFOPLIST_FILE = ARText/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = greenlake.ARText;
+				PRODUCT_BUNDLE_IDENTIFIER = Orotia.ARText;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -327,7 +323,7 @@
 				DEVELOPMENT_TEAM = 2NPE543ARD;
 				INFOPLIST_FILE = ARText/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = greenlake.ARText;
+				PRODUCT_BUNDLE_IDENTIFIER = Orotia.ARText;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
